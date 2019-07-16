@@ -1,0 +1,543 @@
+/* 网页商品内容 */
+
+.main {
+    background: white;
+    margin-top: 10px;
+}
+
+/* 限时购 */
+
+.shoppingShow {
+    width: 190px;
+    height: 240px;
+    padding-top: 34px;
+    background: url(../images/内容/限时购/dailyBg.jpg)no-repeat;
+}
+
+.size0, .size1 {
+    height: 34px;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #4496ee;
+}
+
+.size1 {
+    height: 21px;
+    line-height: 21px;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.shoppingTime {
+    height: 50px;
+    margin: 17px 0 0 17px;
+}
+
+.shoppingTime>li, .shoppingTime>span {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+}
+
+.shoppingTime>li {
+    height: 50px;
+    width: 40px;
+    font-size: 20px;
+    background: white;
+}
+
+.shoppingTime>span {
+    padding: 0 6px;
+}
+
+.commodity {
+    width: 1010px;
+}
+
+.commodity>a {
+    display: block;
+    float: left;
+    width: 336px;
+    height: 120px;
+    padding: 0 10px 0 20px;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+
+.commodity>a:nth-child(n+3), .commodity>a:nth-last-child(1) {
+    border-right: none;
+}
+
+.commodity>a>i {
+    float: right;
+    font-style: normal;
+    display: block;
+    width: 110px;
+    height: 110px;
+    margin-top: 5px;
+    background: url(../images/内容/限时购/54794_L1.jpg)no-repeat;
+    background-size: cover;
+}
+
+.commodity>a:nth-child(2)>i {
+    background: url(../images/内容/限时购/55232_L1.jpg)no-repeat;
+    background-size: cover;
+}
+
+.commodity>a:hover .move {
+    transform: translateX(4px);
+}
+
+.commodity>a>div {
+    float: left;
+    padding-top: 15px;
+}
+
+.commodity>a>div>p:nth-child(1) {
+    font-size: 16px;
+}
+
+.commodity>a>div>p:nth-child(2) {
+    font-size: 14px;
+    color: #f85e5f;
+}
+
+.commodity>a>div>p:nth-child(3) {
+    margin-top: 21px;
+}
+
+.commodity>a>div>p:nth-child(3)>span {
+    float: left;
+    line-height: 24px;
+    margin-right: 12px;
+    text-align: center;
+}
+
+.commodity>a>div>p:nth-child(3)>span:nth-child(1) {
+    width: 78px;
+    color: white;
+    font-size: 16px;
+    background: #fb5e5f;
+    border-radius: 20px;
+}
+
+.commodity>a>div>p:nth-child(3)>span:nth-child(2) {
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.advImg2 {
+    background: url(../images/内容/限时购/zf3yue.jpg)no-repeat;
+    background-size: 100% 100%;
+}
+
+/* 常见疾病 */
+
+.illness {
+    padding-bottom: 8px;
+}
+
+.illnessTitle {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0 6px;
+    line-height: 24px;
+    padding-left: 27px;
+    background: #f5f5f5 url(../images/头部/iconHome.png)no-repeat 0 -174px;
+}
+
+.illnessType {
+    padding: 10px 0 0 12px;
+}
+
+.major, .minor>a {
+    width: 296px;
+    height: 146px;
+    margin-right: 11px;
+    background: url(../images/内容/常见疾病/1.1.jpg)no-repeat;
+}
+
+.rightMargin {
+    margin-right: 12px;
+}
+
+.minor>a {
+    width: 275px;
+    height: 72px;
+    display: block;
+    margin-bottom: 2px;
+    background: url(../images/内容/常见疾病/1.2.jpg)no-repeat;
+}
+
+.minor>a:nth-child(2) {
+    background: url(../images/内容/常见疾病/1.3.jpg)no-repeat;
+}
+
+.typeright .major {
+    background: url(../images/内容/常见疾病/1.6.jpg)no-repeat;
+}
+
+.typeright .minor>a {
+    background: url(../images/内容/常见疾病/1.4.jpg)no-repeat;
+}
+
+.typeright .minor>a:nth-child(2) {
+    background: url(../images/内容/常见疾病/1.5.jpg)no-repeat;
+}
+
+.advImg3 {
+    background: url(../images/内容/常见疾病/3mkouzhao.jpg)no-repeat;
+}
+
+/* 热销抢购 */
+
+.readySale {
+    padding-top: 10px;
+    background: #f5f5f5;
+}
+
+.readySale>dt {
+    width: 261px;
+    border-right: 1px solid #e5e5ee;
+}
+
+.readySale>dt, .readySale>dd {
+    background: white;
+    float: left;
+    height: 268px;
+    padding: 10px 0 0 12px;
+}
+
+.readySale>dd {
+    width: 313px;
+}
+
+.readySale>dd>div:hover .move1 {
+    transform: translateX(-3px);
+}
+
+.readySale>dd>div {
+    border-right: 1px solid #e5e5e5;
+}
+
+.readySale>dd:nth-last-child(1)>div {
+    border-right: none;
+}
+
+.readySale>dd>div>i {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    width: 110px;
+    height: 110px;
+    background: url(../images/内容/健康抢购/1/54780_o1.jpg)no-repeat;
+    background-size: cover;
+}
+
+.saleHead>p:nth-child(1) {
+    font-weight: bold;
+}
+
+.saleHead>b {
+    display: block;
+    width: 236px;
+    height: 174px;
+    background: url(../images/内容/健康抢购/1/36982_M1.jpg)no-repeat;
+    background-size: 100% 100%;
+}
+
+.size2 {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #4c4c4c;
+}
+
+.size3 {
+    font-size: 14px;
+    line-height: 36px;
+    color: #fb5e5f;
+}
+
+/* 楼层跳跃 */
+
+.floorJump {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: -50px;
+    width: 40px;
+    background: white;
+}
+
+.floorJump>li {
+    height: 40px;
+    position: relative;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.floorJump>li>p {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.floorJump>li:nth-child(1)>p:nth-child(2)::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 0;
+    border-bottom: 13px solid;
+    border-left: 13px solid;
+    border-color: transparent transparent transparent #4496ee;
+}
+
+.txt {
+    font-size: 14px;
+    color: #4496ee;
+    background: white;
+    line-height: 14px;
+    padding: 5px 5px 0;
+    z-index: 2;
+    display: none;
+}
+
+.num {
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.floorJump>li:hover .floorJump>li:nth-child(1)>p:nth-child(2)::after {
+    display: none;
+}
+
+/* 楼层商品栏；中西药品 */
+
+.floor {
+    padding-top: 20px;
+    background: #f5f5f5;
+}
+
+.floorLeft>h2 {
+    width: 110px;
+    height: 34px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 34px;
+    background: #e5a871;
+}
+
+.floorLeft>h2>i {
+    width: 24px;
+    height: 24px;
+    margin: 6px 5px 0;
+    background: url(../images/头部/iconHome.png)no-repeat -137px -75px;
+}
+
+/* 楼层疾病分类 */
+
+.floorIllnessClassify, .floorIllnessDrugmaker {
+    background: white;
+}
+
+.illnessClassifyLeft, .illnessClassifyRight, .illnessDrugmakerLeft, .illnessDrugmakerRight {
+    float: left;
+    width: 180px;
+    padding-top: 10px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.illnessDrugmakerLeft, .illnessDrugmakerRight {
+    padding-top: 33px;
+}
+
+.illnessClassifyLeft>a, .illnessClassifyRight>a {
+    float: left;
+    display: block;
+    width: 73px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 14px;
+}
+
+.illnessClassifyLeft>a:hover, .illnessClassifyRight>a:hover {
+    color: #e5a871;
+}
+
+/* 楼层疾病制药业 */
+
+.illnessDrugmakerLeft>a, .illnessDrugmakerRight>a {
+    display: block;
+    float: left;
+    text-indent: -999px;
+    width: 80px;
+    height: 32px;
+    margin: 0 0 30px 6px;
+    background: url(../images/内容/楼层1：中西药品/999\ \(1\).jpg)no-repeat;
+    background-size: cover;
+}
+
+/* 楼层轮播图 */
+
+.floorBanner {
+    width: 360px;
+    height: 222px;
+    background: #3184dd;
+    border-top: 2px solid #e5a871;
+    position: relative;
+}
+
+.floorImg, .floorImg>img {
+    width: 360px;
+    height: 222px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.floorBannerBtn {
+    position: absolute;
+    left: 7px;
+    bottom: 8px;
+    z-index: 1;
+}
+
+.floorBannerBtn>li {
+    float: left;
+    width: 30px;
+    height: 6px;
+    background: white;
+    margin: 0 2px;
+}
+
+/* 楼层选项卡 */
+
+.floorRight {
+    width: 840px;
+}
+
+.floorTaps {
+    border-bottom: 2px solid #e5a871;
+    padding-left: 32px;
+    height: 36px;
+}
+
+.floorTaps>li {
+    float: left;
+    width: 101px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.floorTaps>li:nth-child(1) {
+    background: white;
+    border: 2px solid #e5a871;
+    border-bottom: none;
+}
+
+.floorTaps>li>a {
+    font-size: 14px;
+}
+
+.floorTaps>li>a:hover {
+    color: #e5a871;
+}
+
+/* 楼层选项卡内容 */
+
+.Tapscontent {
+    background: white;
+}
+
+.Tapscontent>dl {
+    float: left;
+    text-align: center;
+    margin: 5px 5px 10px;
+    cursor: pointer;
+}
+
+.Tapscontent>dl>dt {
+    width: 200px;
+    height: 200px;
+    background: url(../images/内容/楼层1：中西药品/中西药品/32078_L1.jpg)no-repeat;
+    background-size: cover;
+}
+
+.Tapscontent>dl:hover>dt {
+    transform: translateX(-3px);
+}
+
+.Tapscontent>dl>dd {
+    height: 27px;
+    line-height: 27px;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+
+.Tapscontent>dl>dd>span:nth-child(1) {
+    color: #fb5e5f;
+    font-weight: bold;
+}
+
+.Tapscontent>dl>dd>span:nth-child(2) {
+    color: #666666;
+    margin-left: 20px;
+    text-decoration: line-through;
+}
+
+/* 友情链接 */
+
+.blogroll{
+    padding-top: 20px;
+    background: #f5f5f5;
+}
+
+.blogroll>h2 {
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4c4c4c;
+    border-bottom: 2px solid #63c070;
+}
+
+.blogroll>h2>i{
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px 0;
+    background: url(../images/头部/iconHome.png)no-repeat 0 -56px;
+}
+
+.cooperator {
+    padding: 11px 0 11px 20px;
+    background: white;
+}
+
+.cooperator>a {
+    display: block;
+    float: left;
+    height: 34px;
+    font-size: 14px;
+    color: #4c4c4c;
+    line-height: 34px;
+    margin-right: 40px;
+}
+
+.cooperator>a:hover {
+    color: #4998eb;
+}

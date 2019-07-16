@@ -1,0 +1,179 @@
+/* 内容 */
+
+/* 顶部内容 */
+
+.signinHead {
+    height: 135px;
+    padding: 36.5px 0;
+}
+
+.signinHead>a {
+    width: 208px;
+    height: 62px;
+}
+
+.signinHead>span {
+    font-size: 24px;
+    line-height: 62px;
+    margin-left: 38px;
+}
+
+/* 表单内容 */
+
+.signinMain {
+    padding: 65px 64px 73px 60px;
+    border: 1px solid #e5e5e5;
+    background: white;
+}
+
+form>dl {
+    margin-bottom: 30px;
+}
+
+form>dl>dt {
+    width: 115px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: right;
+    color: #999;
+    margin-right: 10px;
+}
+
+form>dl>dt>span {
+    margin-right: 5px;
+    color: #e76464;
+}
+
+/* 密码强度 */
+
+.intensity {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    color: #999;
+}
+
+.intensity>i {
+    padding: 0 13px;
+    color: white;
+    background: #c4c4c4;
+    margin-left: 4px;
+    font-style: normal;
+}
+
+.txt1, .txt2, .txt3 {
+    position: relative;
+    width: 271px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #d9d9d9;
+}
+
+.txt1>input, .txt3>input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 15px;
+    color: #333;
+    letter-spacing: 1px;
+    padding: 10px 25px 10px 5px;
+}
+
+form>dl>dd:nth-child(2)>i {
+    width: 14px;
+    height: 15px;
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    background: url(../images/iconLogin.png)no-repeat;
+}
+
+form>dl:nth-child(2)>dd:nth-child(2)>i, form>dl:nth-child(3)>dd:nth-child(2)>i {
+    top: 11;
+    width: 12px;
+    height: 17px;
+    background-position-y: -29px;
+}
+
+form>dl:nth-child(4)>dd:nth-child(2)>i {
+    width: 12px;
+    height: 18px;
+    top: 10;
+    background-position-y: -61px;
+}
+
+.txt2 {
+    width: 304px;
+    padding: 0 5px;
+    margin-left: 3px;
+    display: none;
+}
+
+.txt3 {
+    width: 133px;
+}
+
+.ver, .sms {
+    margin-right: 20px;
+}
+
+/* 验证码 */
+
+.ver>p:nth-child(1) {
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #d9d9d9;
+    margin: 0 10px;
+}
+
+.ver>p:nth-child(2) {
+    width: 84px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.ver>p:nth-child(2)>a {
+    color: #4998eb;
+}
+
+/* 手机验证码 */
+
+.sms {
+    width: 108px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #d9d9d9;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.txt4 {
+    width: 271px;
+    line-height: 40px;
+}
+
+.txt4>input {
+    margin: 13.5px 5px 0 0;
+}
+
+.txt4>a {
+    color: #4998eb;
+}
+
+.btn {
+    width: 270px;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 125px;
+    border-radius: 2px;
+    border: none;
+    background: #e76464;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
